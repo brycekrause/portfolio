@@ -94,15 +94,44 @@ body{
     gap: 20px 50px;
     padding: 10px;
 }
+/*gonna need to fix this*/
 .skills div{
     border-radius: 30px;
-    padding: 20px;
     background-color: var(--dark_gray);
+    border: solid;
+    
+}
+.skills div h1{
+    margin-top: 0;
 }
 .skills div img{
-    width: 100px;
-    height: 100px;
+    border: solid;
+    display: flex;
+    
+    margin: auto;
+
+    width: 70px;
+    height: 70px;
 }
+.skills div div{
+    display: block;
+    text-align: left;
+    margin: -20px 0px;
+    height: 200px;
+}
+.skills h2{
+    margin-left: 10px;
+}
+.python{
+    display: grid;
+    grid-template-areas: 
+    "header" "header"
+    "image" "image"
+    "image" "image"
+    "footer" "footer";
+}
+
+
 .tabs{
     width: var(--width);
     margin: auto;
