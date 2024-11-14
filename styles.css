@@ -93,11 +93,11 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 20px 50px;
     padding: 10px;
-    border: solid;
 }
 .skills div{
-    border: solid;
     text-align: center;
+    border-radius: 30px;
+    background-color: var(--dark_gray);
 }
 .tabs{
     width: var(--width);
