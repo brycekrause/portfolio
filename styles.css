@@ -140,6 +140,7 @@ body{
     background-color: var(--dark_gray);
     border: none;
     border-radius: 10px;
+    transition: all 0.2s ease;
 }
 .tabs > div{
     width: var(--width);
