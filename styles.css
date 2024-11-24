@@ -89,11 +89,11 @@ body{
 .skills{
     margin: auto;
     width: var(--width);
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: 5px;
     padding: 10px;
 }
 .skills > div{
@@ -101,7 +101,7 @@ body{
     border-radius: 10px;
     width: 200px;
     height: 150px;
-    margin: 30px auto;
+    margin: 0px auto;
     transition: background-color 0.2s ease;
 }
 .skills > div:hover{
