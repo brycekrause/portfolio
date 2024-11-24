@@ -129,12 +129,12 @@ body{
     justify-content: space-between;
     background-color: #2D2E2E;
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px;
 }
 .tabs button{
     width: 50%;
     color: white;
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
     font-size: 20px;
     background-color: var(--dark_gray);
