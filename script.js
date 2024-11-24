@@ -26,23 +26,8 @@ edu_button.addEventListener('click', function(){
     exp_button.style.color = 'white';
 
     selected = 'edu';
-
-    edu_button.onmouseover = function(){
-        if (selected == 'edu'){
-        }else{
-            edu_button.style.backgroundColor = 'white';
-            edu_button.style.color = 'black';        
-        }
-    };
-    edu_button.onmouseleave = function(){
-        if (selected == 'edu'){
-        }else{
-            edu_button.style.backgroundColor = '#2D2E2E';
-            edu_button.style.color = 'white';   
-        };
   
-    };
-});
+    });
 exp_button.addEventListener('click', function(){
     education.style.display = 'none';
     experience.style.display = 'block';
@@ -55,19 +40,36 @@ exp_button.addEventListener('click', function(){
 
     selected = 'exp';
 
-    exp_button.onmouseover = function(){
-        if (selected == 'exp'){
-        }else{
-            exp_button.style.backgroundColor = 'white';
-            exp_button.style.color = 'black';        
-        }
+});
+
+exp_button.addEventListener('mouseover', function(){
+    if (selected == 'exp'){
+    }else{
+        exp_button.style.backgroundColor = 'white';
+        exp_button.style.color = 'black';        
+    }
+});
+
+exp_button.addEventListener('mouseleave', function(){
+    if (selected == 'exp'){
+    }else{
+        exp_button.style.backgroundColor = '#2D2E2E';
+        exp_button.style.color = 'white';   
     };
-    
-    exp_button.onmouseleave = function(){
-        if (selected == 'exp'){
-        }else{
-            exp_button.style.backgroundColor = '#2D2E2E';
-            exp_button.style.color = 'white';   
-        };
-    };
+});
+
+
+edu_button.addEventListener('mouseover', function(){
+    if (selected == 'edu'){
+    }else{
+        edu_button.style.backgroundColor = 'white';
+        edu_button.style.color = 'black';        
+    }
+});
+edu_button.addEventListener('mouseleave', function(){
+    if (selected == 'edu'){
+    }else{
+        edu_button.style.backgroundColor = '#2D2E2E';
+        edu_button.style.color = 'white';   
+    }
 });
